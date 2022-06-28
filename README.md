@@ -1,3 +1,3 @@
 # MTE-241-Lab-
 
-Micheal Cooper-Stachowsky
+Mike Cooper-Stachowsky
