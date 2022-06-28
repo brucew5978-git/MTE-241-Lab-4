@@ -28,8 +28,11 @@ int timeElapsed[N];
 struct dataPackage{
 	int messageOverflow;
 	int totalMessageSent;
-	int timeElapsed;
+	int clientTime;
+	int serverTime;
 	osMessageQueueId_t q_id;
+	//Elapsed time = server+client
+	//Sleep time = serverTime
 };
 //Note: Also need mutex to prevent from reading and writing to timeElapsed at the same time
 
